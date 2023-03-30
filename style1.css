@@ -1,0 +1,78 @@
+ /* 一些基本的设置 */
+body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  
+  p {
+    color:rgb(39, 78, 122);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+
+
+  /* 设置所有元素的边框盒模型为border-box */
+* {
+    box-sizing: border-box;
+  }
+  /* 设置顶部和底部header、footer的样式 */
+  .header {
+    background-color:rgb(39, 78, 122);
+    color:white;
+    text-align:center;
+    padding:5px;
+  }
+  
+  .footer {
+    background-color:rgb(39, 78, 122);
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:2px; 
+    }
+
+  /* 设置列的样式 */
+  .column {
+  float:left;
+  padding: 15px;
+  }
+  
+  /* clearfix hack：清除浮动 */
+  .clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+  }
+  
+  /* 设置菜单栏的宽度 */
+  .menu {
+  width: 25%;
+  }
+  
+  /* 设置内容栏的宽度 */
+  .content {
+  width: 75%;
+  }
+  
+  /* 设置菜单栏的列表样式 */
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* 设置菜单栏列表项的样式 */
+  .menu li {
+  padding: 8px;
+  margin-bottom: 8px;
+  background-color: #8ad1eb;
+  color: #ffffff;
+  }
+  
+  /* 设置菜单栏列表项悬停时的样式 */
+  .menu li:hover {
+  background-color: #c5b7ec;
